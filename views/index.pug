@@ -4,5 +4,16 @@ link(rel='stylesheet' href='css/style.css')
 head
     title My First Full Stack
 body
+    script(src="src/server.js" type="server.js")
     h1 Simple TODO APP
-    p TODO: Complete the app!
+    p Add your TODO items here
+    form
+        label(for="todo") TODO:
+            input(type="text" id="todo" name="todo")
+            br
+            br
+            button(onclick="add()") Add
+    br
+    p -------------------------------------------------------------------------------------------------------------------
+    h1 My TODO List 
+    ul(id="list")

@@ -1,7 +1,7 @@
 # Retrospective
 
-- name: Jane Doe
-- email: janedoe@u.boisestate.edu
+- name: David Hedge
+- email: davidhedge26@u.boisestate.edu
 
 ## Experience
 
